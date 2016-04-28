@@ -1,7 +1,212 @@
+/*base*/
+
 body {
+	min-width: 960px;
 	font-size: 16px;
 	line-height: 12px;
 	font-weight: bold;
-	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	font-family: "PT Sans Narrow", Arial, sans-serif;
+	color: black;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+
+}
+
+.clearfix::before,
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+/*header*/
+
+.main-header {
+	margin-bottom: 34.56px;
+	padding-top: 23px;
+	padding-bottom: 25px; 
+	background: #000000;
+}
+
+.logo {
+	float: left;
+	width: 120px;
+}
+
+.main-navigation {
+	float: left;
+	width: 540px;
+}
+
+.main-navigation ul {
+	margin: 0 0 0 11px;
+	padding: 0;
+}
+
+.main-navigation li {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 2px;
+	margin-right: 40px;
+	list-style: none;
+}
+.main-navigation li:last-child {
+	margin-right: 0;
+}
+
+.main-navigation li a {
+	padding: 6px 0;
+	line-height: 20px;
+	font-size: 16px;
+	font-family: "PT Sans Narrow", Arial, sans-serif;
 	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.login {
+	float: right;
+	width: 140px;
+}
+
+.login img {	
+	margin-top: 4px;
+	margin-right: 14px;
+	display: inline-block;
+	vertical-align: top;
+}
+.login a {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 2px;
+	line-height: 20px;
+	font-size: 16px;
+	font-family: "PT Sans Narrow", Arial, sans-serif;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.breadcrumbs {
+	float: left;
+	margin-bottom: 60px;
+}
+
+.breadcrumbs h1 {
+	margin-bottom: 28px;
+	line-height: 42px;
+	font-size: 30px;
+	font-family: "PT Sans Narrow", Arial, sans-serif;
+	color: #000000;
+}
+
+.breadcrumbs ul {
+	padding: 0;
+}
+
+.breadcrumbs li {
+	float: left; 
+	margin: 0 15px; 
+}
+
+.breadcrumbs li:first-child {
+	margin-left: 0;
+	list-style-type: none;
+}
+
+.breadcrumbs li a {
+	line-height: 20px;
+	font-size: 14px;
+	font-family: "PT Sans Narrow", Arial, sans-serif;
+	color: #000000;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+/* modal-container ТОВАРЫ */
+
+.producer {
+	float: left;
+	width: 230px;
+	clear: left;
+}
+
+.producer h2 {
+	margin-top: 0;
+	margin-bottom: 37px;
+	line-height: 30px;
+	font-size: 24px;
+	font-family: "PT Sans Narrow", Arial, sans-serif;
+	color: #000000;
+}
+
+.producer label {
+	display: block;
+}
+
+
+.modal-container {
+	float: left;
+	width: 700px;
+}
+
+.modal-container article {
+	float: left;
+	margin-right: 10px;
+}
+
+.modal-container article:nth-child(3n) {
+	margin-right: 0;
+}
+
+.link {
+	float: left;
+}
+
+/*FOOTER*/
+
+.info {
+	float: left;
+}
+
+.social {
+	float: left;
+	margin-left: 90px;
+}
+
+.developer {
+	float: right;
+}
+
+
+/*Catalog-item*/
+.figure {
+	float: left;
+	width: 460px;
+}
+
+.figure figure {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+.figure figure img {
+	margin: 0;
+	padding: 0;
+}
+
+.description {
+	float: right;
+	width: 400px;
+}
+
+.description p {
+	line-height: 24px;
+	font-stretch: 14px;
+	font-family: "PT Sans Narrow", Arial, sans-serif;
+	color: #000000;
 }
