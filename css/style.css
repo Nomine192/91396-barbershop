@@ -25,7 +25,11 @@ body {
 /*header*/
 
 .main-header {
+<<<<<<< HEAD
 	margin-bottom: 35px;
+=======
+	margin-bottom: 34.56px;
+>>>>>>> origin/master
 	padding-top: 23px;
 	padding-bottom: 25px; 
 	background: #000000;
@@ -91,6 +95,10 @@ body {
 }
 
 .breadcrumbs {
+<<<<<<< HEAD
+=======
+	float: left;
+>>>>>>> origin/master
 	margin-bottom: 60px;
 }
 
@@ -208,4 +216,8 @@ body {
 	font-stretch: 14px;
 	font-family: "PT Sans Narrow", Arial, sans-serif;
 	color: #000000;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/master
